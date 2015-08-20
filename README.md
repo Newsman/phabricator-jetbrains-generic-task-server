@@ -32,6 +32,12 @@ Include in your VirtualHost WSGI code to start the server.
     </Directory>
 ```
 
+## Instal the requirements
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Task server `config.py`
 
 The only config you have to make is the Phabricator url inside `config.py`. Update `PHAB_API_URL`.
